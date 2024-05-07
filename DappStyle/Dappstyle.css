@@ -1,0 +1,95 @@
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #EBEDEF;
+}
+.button {
+    
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 6px;
+    
+  }
+  .button1{
+    
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 6px;
+
+  }
+  .dapp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dapp1{
+    display: block;
+    text-align: center;
+  }
+
+  img{
+    width: 270px;
+  }
+  .goRight{
+    float: right;
+  }
+  .issueButton{
+    background-color: #16cdda;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13.5px;
+    border-radius: 6px;
+    width: 120px;
+    height: 29px;
+  }
+  .box{
+      width: 800px;
+      height: 420px;
+      padding: 10px;
+      margin: auto;
+      background-color:rgb(255, 255, 255) ;
+  }
+  .box2{
+      
+      width: 900px;
+      height: 480px;
+      padding: 10px;
+      margin: auto;
+      background-color:rgb(255, 255, 255) ;
+
+  }
+  .dtt{width: 100px;
+    height: 40px;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  .input{
+    width: 350px;
+    height: 32px;
+  }
+button:hover{
+  color: 	#ffffff;
+  background-color: #0b80f5;
+}
+@media only screen and (max-width:800px){
+  .goRight{
+     text-align: center;
+     float: none;
+  }
+  img{
+    width: 100px;
+  }
+
+}
